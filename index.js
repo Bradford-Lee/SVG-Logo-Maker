@@ -1,4 +1,4 @@
-const shapes = require('./lib/shapes.js');
+const {Circle, Triangle, Square} = require('./lib/shapes.js');
 
 const newShape = new shapes(
     'SVG',
