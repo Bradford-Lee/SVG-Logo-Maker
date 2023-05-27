@@ -4,8 +4,7 @@
 
 This 
 
-https://drive.google.com/file/d/1_PL02YSt7cATFCkGXJhms2fxT4UYlqc-/view
-
+[SVG Logo Generator.webm](https://github.com/Bradford-Lee/SVG-Logo-Maker/assets/127280322/cb5ebecf-199e-47af-9c1a-12b4b2c28c44)
 
 ## Installation
 
