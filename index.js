@@ -36,6 +36,7 @@ function startPrompt() {
         }
     }).catch((err) => console.log(err))
 
+// Grab user input to define shape
     function defineShape(response) {
         if (response.shape === 'Circle'){
             let userShape = new Circle (response.text, response.textColor, response.shapeColor);
@@ -50,12 +51,12 @@ function startPrompt() {
             return userShape.render();
         };
     };
-
+// Write to .svg file
     function writeToFile(response) {
         const svg = defineShape(response);
         console.log(svg);
         // add fs code here to save file
-        fs.writeFile("logo.svg", svg, (error) => {
+        fs.writeFile("./examples/logo.svg", svg, (error) => {
             if (error) {
                 console.log(error);
             } else {
